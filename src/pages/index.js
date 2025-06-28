@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="bg-white py-24 flex items-center justify-center">
         <h1 className="text-3xl sm:text-4xl font-light text-gray-400 tracking-wide font-garamond">
-          Jose Antonio Carrion Moscoso
+          José Antonio Carrión Moscoso
         </h1>
       </div>
 
@@ -21,9 +21,8 @@ export default function Home() {
           Welcome to my portfolio! I specialize in lifestyle, portrait, and event photography that tells a story and preserves emotion.
         </p>
 
-        {/* ✅ Use Next.js Link instead of raw <a> */}
         <Link href="/portfolio">
-          <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+          <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition cursor-pointer">
             View Portfolio
           </button>
         </Link>
