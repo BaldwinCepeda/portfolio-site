@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar />
       <div className="bg-white py-24 flex items-center justify-center">
         <h1 className="text-3xl sm:text-4xl font-light text-gray-400 tracking-wide font-garamond">
-          José Antonio Carrión Moscoso
+          Jose Antonio Carrion Moscoso
         </h1>
       </div>
       <main className="flex flex-col items-center justify-center text-center min-h-screen bg-white px-4">
